@@ -1,4 +1,4 @@
-import { ListMeetType, listStoriesType } from "@/type";
+import {  listMeetType, listStoriesType } from "@/type";
 
 export const listStories:listStoriesType[] = [
   {
