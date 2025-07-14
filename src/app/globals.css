@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@theme {
+  --color-primary-midnight-green: #014e56;
+  --color-primary-light-coral: #f67e7e;
+  --color-secondary-rapture-blue: #79c8c7;
+  --color-secondary-police-blue: #2c6269;
+  --color-secondary-deep-jungle-green: #004047;
+  --color-secondary-sacramento-state-green: #012f34;
+  --color-secondary-dark-green: #002529;
+
+  --font-sans: 'Inter', sans-serif;
+
+  --animation-fade-in: fadeIn 0.5s ease-in-out;
+  --animation-slide-up: slideUp 0.5s ease-in-out;
+}
+
+@layer components{
+  .edge{
+    @apply lg:py-20 lg:px-28 md:py-16 md:px-20 py-11 px-14;
+  }
+}
